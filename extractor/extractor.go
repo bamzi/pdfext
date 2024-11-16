@@ -5,7 +5,6 @@ package extractor
 import (
 	_aa "bytes"
 	_dg "errors"
-	"fmt"
 	_d "fmt"
 	_f "image"
 	_ab "image/color"
@@ -61,7 +60,7 @@ func (_ebff *Extractor) ExtractPageText() (*PageText, int, int, error) {
 		_gacb._gfee._ddcf = _ebff._dff.UseSimplerExtractionProcess
 	}
 	_gacb.computeViews()
-	fmt.Println("---v check ")
+	//------------------- fmt.Println("---v check ")
 	// _adgb = _fccc(_gacb)
 	if _adgb != nil {
 		return nil, 0, 0, _adgb
